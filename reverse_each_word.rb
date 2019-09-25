@@ -1,5 +1,5 @@
-def reverse_each_word(string)
-  
-  string.split(/ /)
-  string.collect(&:reverse!)
+def reverse_each_word(sentence)
+  new_array = []
+  new_array.push(sentence.split(/ /))
+  new_array.collect(&:reverse!)
 end
